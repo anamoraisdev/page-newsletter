@@ -11,10 +11,13 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-#title{
+.title{
     font-family: 'poppinsregular';
     flex-direction: row;
-    line-height: 10px;
+}
+.title h1{
+    line-height: 0.5;
+    font-size: 25px
 }
 a{
     color: white;
@@ -36,27 +39,26 @@ a:hover {
 li{
     font-family: 'poppins-semibold-webfont';
     display: inline-block;
-    margin: 20px;
-}
-h1{
-    font-weight: 200;
-
 }  
 main{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
-h2{
-   font-size: 56px;
-   line-height: 1px;
-}
 span{
     color: rgb(132, 14, 201);
 }
+.news{
+    margin-top: 10%;
+}
+h2{
+    line-height: 0.5;
+    font-size: 40px;
 
+}
 p{
     max-width: 500px;
+    margin-top: 20px;
 }
 form{
     display:flex;
